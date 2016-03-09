@@ -1,0 +1,8 @@
+#ignoring various things
+.vscode
+bootstrap-3.3.6-dist/
+fonts/
+Usable fonts/
+
+
+#files

@@ -1,0 +1,266 @@
+.background_color_Body {
+background-color:rgba(92, 92, 92, 0.61);
+}
+
+
+
+@font-face {
+    font-family:"RalewayExtraLight";
+    src: url("./Usable fonts/Raleway-ExtraLight.ttf"); /* TTF file for CSS3 browsers */
+}
+
+
+/*MAIN SHIVA PAGE CSS*/
+
+.head_css_class {
+  /*color:White;
+  font-family:"glyphicons-halflings-regular";
+  font-weight:900;
+  font-size: xx-large;*/
+  /*margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;*/
+}
+
+.body_css_class {
+  margin-top: 0%;
+  /*margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;*/
+  width: 100%;
+  height: 100%;
+}
+
+.body_table_css_class {
+  margin-top: 0%;
+  margin-left: 0%;
+  width: inherit;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*border: 1px solid black;*/
+}
+
+
+#body_table_row1_data1_div{
+    width: 100%;
+    height: auto;
+}
+
+#body_table_row1_data1_main_page_div{
+  margin: 0,0,0,0 px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+  font-size: xx-large;
+  font-family: "Vollkorn";
+  height: 14.5%;
+}
+
+#body_table_row1_data1_div1_p1{
+    margin: 0,0,0,0 px;
+}
+
+#body_table_row1_data1_div1_p2{
+    margin: 0,0,0,0 px;
+}
+
+#body_table_row1_data2_table2_row1{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*text-align: center;*/
+  /*border: 1px solid black;*/
+}
+
+
+#body_table_row1_data2_table2_row2{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*text-align: center;*/
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data2_table2_row2_data1{
+  /*background-color: #646265;*/
+  width: inherit;
+  /*color:#000000;*/
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data2_table2_row3{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*text-align: center;*/
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data2_table2_row3_data1{
+  /*background-color: #646265;*/
+  width: inherit;
+  /*color:#000000;*/
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data2_table2_row4{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*text-align: center;*/
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data2_table2_row4_data1{
+  /*background-color: #646265;*/
+  width: inherit;
+  /*color:#000000;*/
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+#body_table_row3{
+  margin-top: 0%;
+  margin-left: 0%;
+  /*border: 1px solid black;*/
+}
+
+#body_table_row1_data1{
+  background-color: black;
+  /*width: 5%;*/
+  /*color:#DFEBED;*/
+  color:white;
+  font-family: "Vollkorn";
+  font-weight:900;
+  font-size: xx-large;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#body_table_row1_data2{
+  background-color: #EEEEEE;
+  color:white;
+  width: 25%;
+  /*text-align: center;*/
+}
+
+.secondary_name_chars{
+  font-size: large;
+}
+
+.body_table_row1_data2_table2_row_data_primary_span {
+  font-size: x-large;
+}
+
+.body_table_row1_data2_table2_row_data_secondary_span {
+  font-size: xx-large;
+}
+
+#body_table_row1_data2_table2{
+  width:100%;
+  height: 100%;
+  font-family: "PT Sans";
+  /*font-family: "Vollkorn";*/
+}
+
+#body_table_row1_data1_div3{
+  margin: 0,0,0,0 px;
+}
+
+#body_table_row1_data1_div1_p2{
+    /*This is for sub heading*/
+  font-size: large;
+  font-family: "Alegreya";
+  font-style: italic;
+}
+
+.body_table_row1_data2_table2_row_data_css_class_hover{
+    background-color: black;
+    color:white;
+    width: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.body_table_row1_data2_table2_row_data_css_class{
+    /*background-color: #646265;*/
+  width: inherit;
+  /*color:#000000;*/
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+
+/*Home CSS*/
+
+object{
+    width: 100%;
+    height: 83%;
+}
+
+#home_Body{
+    background-color:inherit;
+}
+
+#body_table_row1_data1_div1{
+  margin: 0,0,0,0 px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+  font-size: xx-large;
+  font-family: "Vollkorn";
+}
+
+.first_letter_of_name {
+  font-size: -webkit-xxx-large;
+}
+
+.secondary_name {
+  font-size: x-large;
+}
+
+#body_table_row1_data1_div1_p3{
+    /*This is for Main Description*/
+  font-size: large;
+  font-family: "RalewayExtraLight";
+}
+
+#body_table_row1_data1_div2{
+  margin: 0,0,0,0 px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#body_table_row1_data1_div2_table1{
+    margin: 0,0,0,0 px;
+    width:inherit;
+    
+}
+
+#body_table_row1_data1_div2_table1_row1{
+    margin: 0,0,0,0 px;
+    width:inherit;
+}
+
+#body_table_row1_data1_div2_table1_row1_data1{
+    margin: 0,0,0,0 px;
+    width:40%;
+    vertical-align: top;
+  text-align: left;
+}
+
+#body_table_row1_data1_div2_table1_row1_data2{
+    margin: 0,0,0,0 px;
+    /*margin-right: 0.5%;*/
+    width:60%;
+    color:white;
+    font-size: large;
+    font-family: "RalewayExtraLight";
+}
+
+
