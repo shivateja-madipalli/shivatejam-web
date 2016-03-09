@@ -75,7 +75,8 @@ $(document).ready(function(){
       try {
           var finalData;
       $.ajax({
-            url: 'http://127.0.0.1:8235/shivatejam/home/Description',
+          //https://mighty-crag-35032.herokuapp.com/shivatejam/home/Description
+            url: 'https://mighty-crag-35032.herokuapp.com/shivatejam/home/Description',
             type: 'GET',
             success: function(data) {
                 if(data != null) {
