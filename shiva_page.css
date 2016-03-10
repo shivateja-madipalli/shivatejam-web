@@ -1,5 +1,6 @@
 .background_color_Body {
-background-color:rgba(92, 92, 92, 0.61);
+background-image: url("./Images/micro_carbon.png");
+
 }
 
 
@@ -49,7 +50,8 @@ background-color:rgba(92, 92, 92, 0.61);
 #body_table_row1_data1_div{
     width: 100%;
     height: auto;
-    margin-top:1%;
+    margin:0,0,0,0;
+    margin-top:0.5%;
 }
 
 #body_table_row1_data1_main_page_div{
@@ -68,6 +70,10 @@ background-color:rgba(92, 92, 92, 0.61);
 
 #body_table_row1_data1_div1_p2{
     margin: 0,0,0,0 px;
+    font-weight: 400;
+    /*font-family: PT Sans;*/
+    letter-spacing: 0.05rem;
+    -webkit-font-smoothing: antialiased;
 }
 
 #body_table_row1_data2_table2_row1{
@@ -130,7 +136,8 @@ background-color:rgba(92, 92, 92, 0.61);
 }
 
 #body_table_row1_data1{
-  background-color: black;
+    /*TOBE CHECKED*/
+  /*background-color: black;*/
   /*width: 5%;*/
   /*color:#DFEBED;*/
   color:white;
@@ -181,7 +188,7 @@ background-color:rgba(92, 92, 92, 0.61);
 }
 
 .body_table_row1_data2_table2_row_data_css_class_hover{
-    background-color: black;
+    background-image: url("./Images/micro_carbon.png");
     color:white;
     width: inherit;
     text-align: center;
@@ -206,6 +213,8 @@ object{
 
 #home_Body{
     background-color:inherit;
+    margin:0,0,0,0;
+    margin-top:1%;
 }
 
 #body_table_row1_data1_div1{
@@ -214,7 +223,12 @@ object{
   margin-right: 2%;
   color: white;
   font-size: xx-large;
-  font-family: "Vollkorn";
+  font-weight: 400;
+  /*font-family: PT Sans;*/
+  letter-spacing: 0.05rem;
+  -webkit-font-smoothing: antialiased;
+  /*font-size: large;*/
+  font-family: "RalewayExtraLight";
 }
 
 .first_letter_of_name {
@@ -260,8 +274,14 @@ object{
     /*margin-right: 0.5%;*/
     width:60%;
     color:white;
+    
+    font-weight: 400;
+    /*font-family: PT Sans;*/
+    letter-spacing: 0.05rem;
+    -webkit-font-smoothing: antialiased;
+    
     font-size: large;
-    font-family: "RalewayExtraLight";
+  font-family: "RalewayExtraLight";
 }
 
 
