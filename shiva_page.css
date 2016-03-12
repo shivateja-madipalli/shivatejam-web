@@ -40,6 +40,14 @@ background-image: url("./Images/micro_carbon.png");
   /*border: 1px solid black;*/
 }
 
+.shiv_madi_color_change {
+    /*color:#004D40;*/
+    color:#558B2F;
+    /*color: #E65100;*/
+    /*color: #B71C1C;*/
+}
+
+
 #body_table_row1{
   margin-top: 0%;
   margin-left: 0%;
@@ -61,19 +69,56 @@ background-image: url("./Images/micro_carbon.png");
   color: white;
   font-size: xx-large;
   font-family: "Vollkorn";
-  height: 14.5%;
+  height: 70%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+}
+
+#body_table_row1_data1_small_div1 {
+  margin: 0,0,0,0 px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 15%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#ptag_click {
+    cursor: pointer;
+}
+
+.shiva_animated_small_img_class {
+    border-radius: 50%;
+    width:30%;
+    height: 40%;
+}
+
+.body_table_row1_data1_main_page_div_ul_li_class {
+    display:block;
 }
 
 #body_table_row1_data1_div1_p1{
     margin: 0,0,0,0 px;
 }
 
+.shiva_animated_full_img_class {
+    border-radius: 50%;
+    text-align: center;
+}
+
 #body_table_row1_data1_div1_p2{
-    margin: 0,0,0,0 px;
-    font-weight: 400;
+    font-size : smaller;
+    font-weight : 600;
     /*font-family: PT Sans;*/
     letter-spacing: 0.05rem;
     -webkit-font-smoothing: antialiased;
+    
+    font-size: large;
+  font-family: "RalewayExtraLight";
+    
 }
 
 #body_table_row1_data2_table2_row1{
@@ -208,7 +253,7 @@ background-image: url("./Images/micro_carbon.png");
 
 object{
     width: 100%;
-    height: 83%;
+    height: 70%;
 }
 
 #home_Body{
