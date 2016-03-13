@@ -1,0 +1,73 @@
+/*official css*/
+
+#official_body{
+    background-image: url("./../Images/micro_carbon.png");
+    color: white;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+#official_body_div1 {
+   
+  margin: 0,0,0,0 px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #EEEEEE;
+  font-size: x-large;
+  font-weight: 400;
+  /*font-family: PT Sans;*/
+  letter-spacing: 0.05rem;
+  -webkit-font-smoothing: antialiased;
+  /*font-size: large;*/
+  font-family: "RalewayExtraLight";
+  text-align: center;
+}
+
+#official_body_div2 {
+    margin : 0,0,0,0 px;
+}
+
+#official_body_div2_div1 {
+    
+    margin: 0,0,0,0 px;
+    /*margin-right: 0.5%;*/
+    /*width:60%;*/
+    
+    font-weight: 200;
+    /*font-family: PT Sans;*/
+    letter-spacing: 0.10rem;
+    -webkit-font-smoothing: antialiased;
+    
+    font-size: large;
+  font-family: "RalewayExtraLight";
+  float: left;
+  width:70%;
+
+}
+
+#official_body_div2_div2 {
+    margin: 0,0,0,0 px;
+    /*margin-right: 0.5%;*/
+    /*width:60%;*/
+    
+    font-weight: 200;
+    /*font-family: PT Sans;*/
+    letter-spacing: 0.10rem;
+    -webkit-font-smoothing: antialiased;
+    
+    font-size: large;
+  font-family: "RalewayExtraLight";
+  /*float: left;*/
+  /*width:70%;*/
+  /*text-align: right;*/
+  color:white;
+  text-align:center;
+  /*margin-right: 2%;*/
+}
+
+#resume_thumbnail {
+    width:20%;
+    height: 25%;
+}

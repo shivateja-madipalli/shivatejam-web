@@ -7,6 +7,18 @@ $(document).ready(function(){
     $('#body_table_row1_data1_small_div1').hide();
     $('#ptag_click').css('curson','default');
     
+    // $('#shiva_animated_img').hover(
+    //     function(){
+    //         $('#shiva_animated_img').attr('src','./Images/profile.jpg');
+    //         $('#shiva_animated_img').attr('width','15%');
+    //         $('#shiva_animated_img').attr('width','20%');
+    //     },
+    //     function(){
+    //         $('#shiva_animated_img').attr('src','./Images/Shiva-Animated.jpg');
+    //         $('#shiva_animated_img').attr('width','15%');
+    //         $('#shiva_animated_img').attr('width','20%');   
+    //     });
+    
     $('#ptag_click').click( function() {
             $('#body_table_row1_data1_empty_div1').show();
             $('#body_table_row1_data1_div1_p2_span').show('slow');
@@ -14,6 +26,8 @@ $(document).ready(function(){
             $('#body_table_row1_data1_main_page_div').css('height','70%');
             // $('#shiva_animated_img').css('display', 'block');
             $('#body_table_row1_data1_div1_p2_span').css('display', 'block');
+            $('#body_table_row1_data1_div1_hello_p_tag').css('display', 'block');
+            $('#body_table_row1_data1_div').css('height','auto');
             $("#body_table_row1_data1_div")
             .html('');
     });
@@ -33,6 +47,8 @@ $(document).ready(function(){
             $('#body_table_row1_data1_div1_p2_span').slideUp('slow');
             $('#shiva_animated_img').slideUp('slow');
             $('#body_table_row1_data1_main_page_div').css('height','10%');
+            $('#body_table_row1_data1_div1_hello_p_tag').css('display', 'none');
+            $('#body_table_row1_data1_div').css('height','85%');
             // $('#ptag_click').css('curson','pointer');
            $("#body_table_row1_data1_div")
             .html('<object data="./official.html"/>');
@@ -53,6 +69,8 @@ $(document).ready(function(){
             $('#body_table_row1_data1_div1_p2_span').slideUp('slow');
             $('#shiva_animated_img').slideUp('slow');
             $('#body_table_row1_data1_main_page_div').css('height','10%');
+            $('#body_table_row1_data1_div1_hello_p_tag').css('display', 'none');
+            $('#body_table_row1_data1_div').css('height','85%');
             $("#body_table_row1_data1_div")
             .html('<object data="./social.html"/>');
             
@@ -72,6 +90,8 @@ $(document).ready(function(){
             $('#body_table_row1_data1_div1_p2_span').slideUp('slow');
             $('#shiva_animated_img').slideUp('slow');
             $('#body_table_row1_data1_main_page_div').css('height','10%');
+            $('#body_table_row1_data1_div1_hello_p_tag').css('display', 'none');
+            $('#body_table_row1_data1_div').css('height','85%');
             $("#body_table_row1_data1_div")
             .html('<object data="./Personal.html"/>');
            
@@ -91,6 +111,8 @@ $(document).ready(function(){
             $('#body_table_row1_data1_div1_p2_span').slideUp('slow');
             $('#shiva_animated_img').slideUp('slow');
             $('#body_table_row1_data1_main_page_div').css('height','10%');
+            $('#body_table_row1_data1_div1_hello_p_tag').css('display', 'none');
+            $('#body_table_row1_data1_div').css('height','85%');
             $("#body_table_row1_data1_div")
             .html('<object data="./blog.html"/>');
            
@@ -101,57 +123,4 @@ $(document).ready(function(){
   function loadPage(){
       $("#body_table_row1_data1_div")
             .html('<object data="./home.html"/>');
-  }
-  
-  function getDescription() {
-      try {
-          var finalData;
-      $.ajax({
-          //https://mighty-crag-35032.herokuapp.com/shivatejam/home/Description
-            url: 'https://mighty-crag-35032.herokuapp.com/shivatejam/home/Description',
-            type: 'GET',
-            success: function(data) {
-                if(data != null) {
-                        console.log("Data is not null");
-                    }
-                },
-            complete: function(data) {
-                console.log("data.status: "+data.status);
-                if(data.status == 200) {
-                    //MainDescription
-                    console.log("this is it: "+data.responseJSON[0].MainDescription);
-                    //SubDescription
-                    console.log("this is it: "+data.responseJSON[0].SubDescription[0]);
-                    finalData = data;
-                    
-                    //updating main Description
-                    $("#body_table_row1_data1_div1_p3").html(data.responseJSON[0].MainDescription);
-                    
-                    //updating sub Description
-                    //body_table_row1_data1_div2_table1_row1_data2
-                    //$('#loanList').html(html);
-                    var html;
-                    for(var i=0; i < data.responseJSON[0].SubDescription.length; i++){
-                        
-                        html += "<p> &rarr; " + data.responseJSON[0].SubDescription[i] + "</p>"; 
-                    }
-                    //var html = "<p>" + data.responseJSON[0].SubDescription[0] + "</p>";
-                    
-                    console.log("html: "+ html);
-                     
-                    $("#body_table_row1_data1_div2_table1_row1_data2").html(html);
-                }
-                else {
-                    console.log("Something is wrong");
-                    }
-                },
-            error : function(err) {
-                    console.log("error is: " + err.error);
-                    window.alert("As a Developer I do hate these issues, an error :( please refresh the page");
-                },
-            });          
-      }
-      catch(err) {
-          console.log("error have been throughed "+ err);
-      }
   }

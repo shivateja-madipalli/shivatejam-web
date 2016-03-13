@@ -107,6 +107,7 @@ background-image: url("./Images/micro_carbon.png");
 .shiva_animated_full_img_class {
     border-radius: 50%;
     text-align: center;
+        box-shadow: 0 1px 3px #BDBDBD; 
 }
 
 #body_table_row1_data1_div1_p2{
@@ -253,7 +254,7 @@ background-image: url("./Images/micro_carbon.png");
 
 object{
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
 
 #home_Body{
