@@ -71,3 +71,58 @@
     width:20%;
     height: 25%;
 }
+
+#official_body_div3 {
+    margin : 0,0,0,0 px;
+}
+
+#official_body_div3_table {
+    margin : 0,0,0,0 px;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.git_proj_rows_class {
+    margin : 0,0,0,0 px;
+    
+    font-weight: 200;
+    letter-spacing: 0.10rem;
+    -webkit-font-smoothing: antialiased;
+    font-size: large;
+    font-family: "RalewayExtraLight";
+    color:white;
+    
+}
+
+.git_proj_names_a_class {
+    color: #EEEEEE;
+}
+
+.git_proj_names_td_left_class {
+    border-left: thick double #558B2F;
+    width : 46%;
+    text-align:left;
+    padding-left:2%;
+    cursor: pointer;
+    
+}
+
+.git_proj_names_td_right_class {
+    border-right: thick double #558B2F;
+    width : 46%;
+    text-align:right;
+    padding-right:2%;
+    cursor: pointer;
+}
+
+.git_proj_description_left_class {
+    width : 46%;
+    text-align:left;
+    padding-left:2%;
+}
+
+.git_proj_description_right_class {
+    width : 46%;
+    text-align:right;
+    padding-right:2%;
+}
